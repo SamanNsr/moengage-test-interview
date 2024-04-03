@@ -129,7 +129,7 @@ function AccountReg(props) {
                 {max:4,message:t('Please input less than 4 characters')}]}
             >
               <Input 
-              placeholder={t('E-mail verification code')} 
+              placeholder={t('Verification code')} 
               prefix={<SafetyOutlined className="m-2"/>}
               suffix={<a onClick={()=>hasErrors(form.getFieldsError())}  className="bg-gray-800 text-md  text-white  rounded-xl py-1 px-4">{t("Send")}</a>} 
               className="rounded-lg  bg-gray-200"
